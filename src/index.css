@@ -32,6 +32,23 @@ main {
   align-items: center;
 }
 
+.title {
+  font-family: 'Karla', sans-serif;
+  color: #2B283A;
+  font-size: 40px;
+  margin: 0;
+}
+
+.instructions {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  color: #4A4E74;
+  margin-top: 0;
+  margin-bottom: 30px;
+  width: 70%;
+  text-align: center;
+}
+
 .die-container {
   display: grid;
   grid-template: auto auto / repeat(5, 1fr); /* 5 columns for the dice */
@@ -63,7 +80,8 @@ button {
   background-color: #5035FF;
   color: white;
   height: 50px;
-  width: 100px;
+  white-space: nowarp;
+  width: auto;
   margin-top: 25px;
   padding: 6px 20px;
   font-size: 1.25rem;
